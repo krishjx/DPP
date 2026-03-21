@@ -1,8 +1,21 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 int main(){
-    int a=4+2%-8;
-    cout<<a <<"\n";
-    float t=7/22*(3.14+2)*3/5;
-     cout<<t <<"\n";
+    int r,c;
+    cout<<"Enter the Number of Rows:";
+    cin>>r;
+    cout<<"Enter the Number of Columns:";
+    cin>>c;
+    for(int i=1;i<=r;i++){
+        for(int j=1;j<=c;j++){
+            if(i==1 or i==r or j==1 or j==c){
+                cout<<" * ";
+            }
+        //     else{
+        //         cout<<"   ";
+        // }
+    }
+        cout<<"\n";
+    }
 }
+

@@ -8,7 +8,7 @@ int main(){
     cin>>c;
     for(int i=1;i<=r;i++){
         for(int j=1;j<=c;j++){
-            if(i==1 or i==r or j==1 or j==c){
+            if(i==1 or i==r or j==1 or j==c or i==j or i+j==r+1){
                 cout<<" * ";
             }
             else{
