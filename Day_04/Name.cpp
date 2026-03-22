@@ -9,7 +9,7 @@ if(r%2==0){
     c=(r+1)/2;           
 }
 else{
-    c=(r+1)/2;          -
+    c=(r+1)/2;          
 }
 for(int i=1;i<=r;i++){
     for(int j=1;j<=c;j++){
